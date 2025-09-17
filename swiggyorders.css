@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+.home-btn {
+    background-color: black;
+    border-radius: 14px;
+    border-width: 0px;
+    color: white;
+    font-weight: bold;
+    font-family: "Roboto";
+    font-size: 24px;
+    height: 60px;
+    width: 150px;
+    padding-bottom: 8px;
+
+}
+.home-btn:hover{
+    transform: scale(1.08);
+}
+.food-order-big-box{
+    border-radius:22px;
+    border-width:0px;
+    background-image:radial-gradient(white,orange)
+}
+.food-order-box {
+    border-radius: 20px;
+    border-width: 1px;
+    border-style:solid;
+    border-color:gray;
+    box-shadow:0px 4px 10px #bf6102;
+}
+.fav-top-bg {
+    height: 10vh;
+}
+
+.order-confirmation-box {
+    height: 100vh;
+    margin-top: 50px;
+    padding-top: 50px;
+}
+
+.confirm-icon{
+    background-color:green;
+}
+.order-confirmation-desc {
+    color:rgb(20, 168, 1);
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.order-confirmation-head {
+    color:rgb(20, 168, 1);
+    font-family: "Roboto";
+    font-size: 56px;
+    font-weight: bolder;
+
+}
+
+.home-btn2 {
+    border-radius: 14px;
+    border-width: 0px;
+    font-weight: bold;
+    font-family: "Roboto";
+    font-size: 24px;
+    height: 60px;
+    width: 150px;
+    padding-bottom: 8px;
+
+}
+.home-btn2:hover{
+    transform: scale(1.08);
+}
+
+.orderconfirmation-bg {
+    background-image:radial-gradient(white,gold);
+    background-size: cover;
+    height: 100vh;
+
+}
+.food-img {
+   
+    width: 25%;
+    border-radius: 10px;
+}
+
+.food-box-price {
+    font-family: "Roboto";
+    font-size: 26px;
+    color: black;
+    font-weight: bolder;
+}
+
+.food-box-desc {
+    font-family: "Roboto";
+    font-size: 20px;
+    color: black;
+    font-weight: 700;
+}
+
+.food-box-head {
+    font-family: "Bree serif";
+    font-size: 32px;
+    font-weight: bold;
+    color: red;
+}
+
+.food-box {
+    border-radius: 20px;
+    border-width: 1px;
+    border-style:solid;
+    border-color:gray;
+    height: 300px;
+}
+.food-box:hover{
+    transform: scale(1.05);
+    background: radial-gradient( rgb(252, 230, 162), rgb(252, 197, 32));
+}
+
+
+.order-btn {
+    background-color:rgb(255, 102, 0);
+    border-radius: 14px;
+    border-width: 0px;
+    color: white;
+    font-weight: bold;
+    font-family: "Roboto";
+    font-size: 24px;
+    height: 60px;
+    width: 150px;
+    padding-bottom: 8px;
+
+}

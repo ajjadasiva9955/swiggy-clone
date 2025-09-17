@@ -1,0 +1,741 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="swiggyorders.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/ac42c3b1f7.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <div class="fav-top-bg bg-warning fixed-top "></div>
+    <div class="bg-white mt-5 pt-5" id="sectionorders">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-6">
+                    <div class="food-box p-3  m-2 shadow-lg d-flex flex-row">
+                        <div class=" ml-4">
+                            <h1 class="food-box-head">Mutton Biryani</h1>
+                            <p class="food-box-desc">Southern Spice(4.7)</p>
+                            <p class="food-box-price">RS 320/-</p>
+                            <button class=" order-btn pb-1" onclick="display('sectionordermaincouse1')">Re Order</button>
+                        </div>
+                        <div class="ml-auto mr-4">
+                            <img class="food-img w-100" src="https://res.cloudinary.com/dt3qdkeoc/image/upload/v1729539630/u06749eotcj1embc8gln.jpg" />
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <div class="food-box p-3  m-2 shadow-lg d-flex flex-row">
+                        <div class=" ml-4">
+                            <h1 class="food-box-head">Chicken Dum Biryani</h1>
+                            <p class="food-box-desc">Minerva Coffee Shop(4.6)</p>
+                            <p class="food-box-price">RS 310/-</p>
+                            <button class=" order-btn pb-1" onclick="display('sectionordermaincouse2')">Re Order</button>
+                        </div>
+                        <div class="ml-auto mr-4">
+                            <img class="food-img w-100" src="https://res.cloudinary.com/dt3qdkeoc/image/upload/v1729539657/vgbvtoiydx5uomwcqqge.jpg" />
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <div class="food-box p-3  m-2 shadow-lg d-flex flex-row">
+                        <div class=" ml-4">
+                            <h1 class="food-box-head">Rogan Josh</h1>
+                            <p class="food-box-desc">Blue Fox(4.6)</p>
+                            <p class="food-box-price">RS 350/-</p>
+                            <button class=" order-btn pb-1" onclick="display('sectionordermaincouse3')">Re Order</button>
+                        </div>
+                        <div class="ml-auto mr-4">
+                            <img class="food-img w-100" src="https://res.cloudinary.com/dt3qdkeoc/image/upload/v1729539713/images_rtnsev.jpg" />
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <div class="food-box p-3  m-2 shadow-lg d-flex flex-row">
+                        <div class=" ml-4">
+                            <h1 class="food-box-head">Mutton Biryani</h1>
+                            <p class="food-box-desc">Andhra Spice(4.7)</p>
+                            <p class="food-box-price">RS 330/-</p>
+                            <button class=" order-btn pb-1" onclick="display('sectionordermaincouse4')">Re Order</button>
+                        </div>
+                        <div class="ml-auto mr-4">
+                            <img class="food-img w-100" src="https://res.cloudinary.com/dt3qdkeoc/image/upload/v1729539720/cgc0usoemdod9qjb4a2a.jpg" />
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <div class="food-box p-3  m-2 shadow-lg d-flex flex-row">
+                        <div class=" ml-4">
+                            <h1 class="food-box-head">Veg Hakka Noodles</h1>
+                            <p class="food-box-desc">Southern Spice(4.2)</p>
+                            <p class="food-box-price">RS 150/-</p>
+                            <button class=" order-btn pb-1" onclick="display('sectionordernoodles1')">Re Order</button>
+                        </div>
+                        <div class="ml-auto mr-4">
+                            <img class="food-img w-100" src="https://res.cloudinary.com/dt3qdkeoc/image/upload/v1729539752/uxcaeowo4scnwpv9d9n4.jpg" />
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <div class="food-box p-3  m-2 shadow-lg d-flex flex-row">
+                        <div class=" ml-4">
+                            <h1 class="food-box-head">Schezwan Noodles</h1>
+                            <p class="food-box-desc">Minerva Coffee Shop(4.2)</p>
+                            <p class="food-box-price">RS 170/-</p>
+                            <button class=" order-btn pb-1" onclick="display('sectionordernoodles2')">Re Order</button>
+                        </div>
+                        <div class="ml-auto mr-4">
+                            <img class="food-img w-100" src="https://res.cloudinary.com/dt3qdkeoc/image/upload/v1729539908/hguku5vxvt2w3qwesua5.jpg" />
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <div class="food-box p-3  m-2 shadow-lg d-flex flex-row">
+                        <div class=" ml-4">
+                            <h1 class="food-box-head">Singapore Noodles</h1>
+                            <p class="food-box-desc">Blue Fox(4.3)</p>
+                            <p class="food-box-price">RS 190/-</p>
+                            <button class=" order-btn pb-1" onclick="display('sectionordernoodles3')">Re Order</button>
+                        </div>
+                        <div class="ml-auto mr-4">
+                            <img class="food-img w-100" src="https://res.cloudinary.com/dt3qdkeoc/image/upload/v1729539917/lkersqmvwlyhabaikg5a.jpg" />
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <div class="food-box p-3  m-2 shadow-lg d-flex flex-row">
+                        <div class=" ml-4">
+                            <h1 class="food-box-head">Chicken Schezwan Noodles</h1>
+                            <p class="food-box-desc">Andhra Spice(4.3)</p>
+                            <p class="food-box-price">RS 180/-</p>
+                            <button class=" order-btn pb-1" onclick="display('sectionordernoodles4')">Re Order</button>
+                        </div>
+                        <div class="ml-auto mr-4">
+                            <img class="food-img w-100" src="https://res.cloudinary.com/dt3qdkeoc/image/upload/v1729539939/qiouq46vmk8a2kb0jaek.jpg" />
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <div class="food-box p-3  m-2 shadow-lg d-flex flex-row">
+                        <div class=" ml-4">
+                            <h1 class="food-box-head">Green Salad</h1>
+                            <p class="food-box-desc">Southern Spice(4.1)</p>
+                            <p class="food-box-price">RS 90/-</p>
+                            <button class=" order-btn pb-1" onclick="display('sectionordersalads1')">Re Order</button>
+                        </div>
+                        <div class="ml-auto mr-4">
+                            <img class="food-img w-100" src="https://res.cloudinary.com/dt3qdkeoc/image/upload/v1729539973/xr8etnjxwnw8dnc0zdg9.jpg" />
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <div class="food-box p-3  m-2 shadow-lg d-flex flex-row">
+                        <div class=" ml-4">
+                            <h1 class="food-box-head">Caesar Salad/h1>
+                                <p class="food-box-desc">Minerva Coffee Shop(4.3)</p>
+                                <p class="food-box-price">RS 120/-</p>
+                                <button class=" order-btn pb-1" onclick="display('sectionordersalads2')">Re Order</button>
+                        </div>
+                        <div class="ml-auto mr-4">
+                            <img class="food-img w-100" src="https://res.cloudinary.com/dt3qdkeoc/image/upload/v1729540152/hampipwja2dt1gc8tsqh.jpg" />
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <div class="food-box p-3  m-2 shadow-lg d-flex flex-row">
+                        <div class=" ml-4">
+                            <h1 class="food-box-head">Greek Salad</h1>
+                            <p class="food-box-desc">Blue Fox(4.4)</p>
+                            <p class="food-box-price">RS 140/-</p>
+                            <button class=" order-btn pb-1" onclick="display('sectionordersalads3')">Re Order</button>
+                        </div>
+                        <div class="ml-auto mr-4">
+                            <img class="food-img w-100" src="https://res.cloudinary.com/dt3qdkeoc/image/upload/v1729540159/l2x3lxhb7qeoiaqdgpvz.jpg" />
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <div class="food-box p-3  m-2 shadow-lg d-flex flex-row">
+                        <div class=" ml-4">
+                            <h1 class="food-box-head">Egg Salad</h1>
+                            <p class="food-box-desc">Andhra Spice(4.2)</p>
+                            <p class="food-box-price">RS 100/-</p>
+                            <button class=" order-btn pb-1" onclick="display('sectionordersalads4')">Re Order</button>
+                        </div>
+                        <div class="ml-auto mr-4">
+                            <img class="food-img w-100" src="https://res.cloudinary.com/dt3qdkeoc/image/upload/v1729540184/b1acingrln4lztxbzm4j.jpg" />
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <div class="food-box p-3  m-2 shadow-lg d-flex flex-row">
+                        <div class=" ml-4">
+                            <h1 class="food-box-head">Gulab Jamun</h1>
+                            <p class="food-box-desc">Southern Spice(4.5)</p>
+                            <p class="food-box-price">RS 80/-</p>
+                            <button class=" order-btn pb-1" onclick="display('sectionorderdesserts1')">Re Order</button>
+                        </div>
+                        <div class="ml-auto mr-4">
+                            <img class="food-img w-100" src="https://res.cloudinary.com/dt3qdkeoc/image/upload/v1729540335/wbn9vmilsyb0eyrwthow.jpg" />
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <div class="food-box p-3  m-2 shadow-lg d-flex flex-row">
+                        <div class=" ml-4">
+                            <h1 class="food-box-head">Gajar Ka Halwa</h1>
+                            <p class="food-box-desc">Minerva Coffee Shop(4.4)</p>
+                            <p class="food-box-price">RS 90/-</p>
+                            <button class=" order-btn pb-1" onclick="display('sectionorderdesserts2')">Re Order</button>
+                        </div>
+                        <div class="ml-auto mr-4">
+                            <img class="food-img w-100" src="https://res.cloudinary.com/dt3qdkeoc/image/upload/v1729540350/deaqxbxq9w0kumfhjgw4.jpg" />
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <div class="food-box p-3  m-2 shadow-lg d-flex flex-row">
+                        <div class=" ml-4">
+                            <h1 class="food-box-head">Brownie with Ice Cream</h1>
+                            <p class="food-box-desc">Blue Fox(4.7)</p>
+                            <p class="food-box-price">RS 150/-</p>
+                            <button class=" order-btn pb-1" onclick="display('sectionorderdesserts3')">Re Order</button>
+                        </div>
+                        <div class="ml-auto mr-4">
+                            <img class="food-img w-100" src="https://res.cloudinary.com/dt3qdkeoc/image/upload/v1729540404/images_fe3oir.jpg" />
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <div class="food-box p-3  m-2 shadow-lg d-flex flex-row">
+                        <div class=" ml-4">
+                            <h1 class="food-box-head">Rasmalai</h1>
+                            <p class="food-box-desc">Andhra Spice(4.4)</p>
+                            <p class="food-box-price">RS 90/-</p>
+                            <button class=" order-btn pb-1" onclick="display('sectionorderdesserts4')">Re Order</button>
+                        </div>
+                        <div class="ml-auto mr-4">
+                            <img class="food-img w-100" src="https://res.cloudinary.com/dt3qdkeoc/image/upload/v1729540410/c8i1z75xhosyzij69pma.jpg" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div class="order-details-bg bg-white  pt-5 mb-5 pb-4 pl-5 pr-5" id="sectionordermaincouse1">
+            <div class="continer w-75 m-auto">
+                <div class="row">
+                    <div class="col-12">
+                        <button class="home-btn   pb-1  mt-5 m-4" onclick="display('sectionorders')">Back</button>
+                        <div class=" food-order-big-box p-3">
+                            <div class="food-order-box p-3 bg-white m-3 shadow-lg d-flex flex-row">
+                                <div class=" ml-4">
+                                    <h1 class="food-box-head">Mutton Biryani</h1>
+                                    <p class="food-box-desc">Southern Spice(4.7)</p>
+                                    <p class="food-box-price">RS 320/-</p>
+                                </div>
+                                <div class="ml-auto mr-4">
+                                    <img class="food-img w-100" src="https://res.cloudinary.com/dt3qdkeoc/image/upload/v1729539630/u06749eotcj1embc8gln.jpg" />
+                                </div>
+                            </div>
+                            <div class="p-4">
+                                <form>
+                                    <input type="text" required placeholder="HOUSE/FLAT/BLOCK NO" class="w-100 m-2"/>
+                                    <input type="text" required placeholder="AREA/ROAD/PIN" class="w-100 m-2"/>
+                                    <input type="text" required placeholder="RECEIVER'S NAME" class="w-25 m-2 "/>
+                                    <input type="number" required placeholder="PHONE NUMBER" class="w-25 m-2 "/>
+                                    <button type="submit" class="order-btn w-100 M-2" onclick="display('sectionorderconfirmation')">Order now</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="order-details-bg bg-white  pt-5 mb-5 pb-4 pl-5 pr-5" id="sectionordermaincouse2">
+            <div class="continer w-75 m-auto">
+                <div class="row">
+                    <div class="col-12">
+                        <button class="home-btn   pb-1  mt-5 m-4" onclick="display('sectionorders')">Back</button>
+                        <div class=" food-order-big-box p-3">
+                            <div class="food-order-box p-3 bg-white m-3 shadow-lg d-flex flex-row">
+                                <div class=" ml-4">
+                                    <h1 class="food-box-head">Chicken Dum Biryani</h1>
+                                    <p class="food-box-desc">Minerva Coffee Shop(4.6)</p>
+                                    <p class="food-box-price">RS 310/-</p>
+                                </div>
+                                <div class="ml-auto mr-4">
+                                    <img class="food-img w-100" src="https://res.cloudinary.com/dt3qdkeoc/image/upload/v1729539657/vgbvtoiydx5uomwcqqge.jpg" />
+                                </div>
+                            </div>
+                            <div class="p-4">
+                                <form>
+                                    <input type="text" required placeholder="HOUSE/FLAT/BLOCK NO" class="w-100 m-2"/>
+                                    <input type="text" required placeholder="AREA/ROAD/PIN" class="w-100 m-2"/>
+                                    <input type="text" required placeholder="RECEIVER'S NAME" class="w-25 m-2 "/>
+                                    <input type="number" required placeholder="PHONE NUMBER" class="w-25 m-2 "/>
+                                    <button type="submit" class="order-btn w-100 M-2" onclick="display('sectionorderconfirmation')">Order now</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="order-details-bg bg-white  pt-5 mb-5 pb-4 pl-5 pr-5" id="sectionordermaincouse3">
+            <div class="continer w-75 m-auto">
+                <div class="row">
+                    <div class="col-12">
+                        <button class="home-btn   pb-1  mt-5 m-4" onclick="display('sectionorders')">Back</button>
+                        <div class=" food-order-big-box p-3">
+                            <div class="food-order-box p-3 bg-white m-3 shadow-lg d-flex flex-row">
+                                <div class=" ml-4">
+                                    <h1 class="food-box-head">Rogan Josh</h1>
+                                    <p class="food-box-desc">Blue Fox(4.6)</p>
+                                    <p class="food-box-price">RS 350/-</p>
+                                </div>
+                                <div class="ml-auto mr-4">
+                                    <img class="food-img w-100" src="https://res.cloudinary.com/dt3qdkeoc/image/upload/v1729539713/images_rtnsev.jpg" />
+                                </div>
+                            </div>
+                            <div class="p-4">
+                                <form>
+                                    <input type="text" required placeholder="HOUSE/FLAT/BLOCK NO" class="w-100 m-2"/>
+                                    <input type="text" required placeholder="AREA/ROAD/PIN" class="w-100 m-2"/>
+                                    <input type="text" required placeholder="RECEIVER'S NAME" class="w-25 m-2 "/>
+                                    <input type="number" required placeholder="PHONE NUMBER" class="w-25 m-2 "/>
+                                    <button type="submit" class="order-btn w-100 M-2" onclick="display('sectionorderconfirmation')">Order now</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="order-details-bg bg-white  pt-5 mb-5 pb-4 pl-5 pr-5" id="sectionordermaincouse4">
+            <div class="continer w-75 m-auto">
+                <div class="row">
+                    <div class="col-12">
+                        <button class="home-btn   pb-1  mt-5 m-4" onclick="display('sectionorders')">Back</button>
+                        <div class=" food-order-big-box p-3">
+                            <div class="food-order-box p-3 bg-white m-3 shadow-lg d-flex flex-row">
+                                <div class=" ml-4">
+                                    <h1 class="food-box-head">Mutton Biryani</h1>
+                                    <p class="food-box-desc">Andhra Spice(4.7)</p>
+                                    <p class="food-box-price">RS 330/-</p>
+                                </div>
+                                <div class="ml-auto mr-4">
+                                    <img class="food-img w-100" src="https://res.cloudinary.com/dt3qdkeoc/image/upload/v1729539720/cgc0usoemdod9qjb4a2a.jpg" />
+                                </div>
+                            </div>
+                            <div class="p-4">
+                                <form>
+                                    <input type="text" required placeholder="HOUSE/FLAT/BLOCK NO" class="w-100 m-2"/>
+                                    <input type="text" required placeholder="AREA/ROAD/PIN" class="w-100 m-2"/>
+                                    <input type="text" required placeholder="RECEIVER'S NAME" class="w-25 m-2 "/>
+                                    <input type="number" required placeholder="PHONE NUMBER" class="w-25 m-2 "/>
+                                    <button type="submit" class="order-btn w-100 M-2" onclick="display('sectionorderconfirmation')">Order now</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div class="order-details-bg bg-white  pt-5 mb-5 pb-4 pl-5 pr-5" id="sectionordernoodles1">
+            <div class="continer w-75 m-auto">
+                <div class="row">
+                    <div class="col-12">
+                        <button class="home-btn   pb-1  mt-5 m-4" onclick="display('sectionorders')">Back</button>
+                        <div class=" food-order-big-box p-3">
+                            <div class="food-order-box p-3 bg-white m-3 shadow-lg d-flex flex-row">
+                                <div class=" ml-4">
+                                    <h1 class="food-box-head">Veg Hakka Noodles</h1>
+                                    <p class="food-box-desc">Southern Spice(4.2)</p>
+                                    <p class="food-box-price">RS 150/-</p>
+                                </div>
+                                <div class="ml-auto mr-4">
+                                    <img class="food-img w-100" src="https://res.cloudinary.com/dt3qdkeoc/image/upload/v1729539752/uxcaeowo4scnwpv9d9n4.jpg" />
+                                </div>
+                            </div>
+                            <div class="p-4">
+                                <form>
+                                    <input type="text" required placeholder="HOUSE/FLAT/BLOCK NO" class="w-100 m-2"/>
+                                    <input type="text" required placeholder="AREA/ROAD/PIN" class="w-100 m-2"/>
+                                    <input type="text" required placeholder="RECEIVER'S NAME" class="w-25 m-2 "/>
+                                    <input type="number" required placeholder="PHONE NUMBER" class="w-25 m-2 "/>
+                                    <button type="submit" class="order-btn w-100 M-2" onclick="display('sectionorderconfirmation')">Order now</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="order-details-bg bg-white  pt-5 mb-5 pb-4 pl-5 pr-5" id="sectionordernoodles2">
+            <div class="continer w-75 m-auto">
+                <div class="row">
+                    <div class="col-12">
+                        <button class="home-btn   pb-1  mt-5 m-4" onclick="display('sectionorders')">Back</button>
+                        <div class=" food-order-big-box p-3">
+                            <div class="food-order-box p-3 bg-white m-3 shadow-lg d-flex flex-row">
+                                <div class=" ml-4">
+                                    <h1 class="food-box-head">Schezwan Noodles</h1>
+                                    <p class="food-box-desc">Minerva Coffee Shop(4.2)</p>
+                                    <p class="food-box-price">RS 170/-</p>
+                                </div>
+                                <div class="ml-auto mr-4">
+                                    <img class="food-img w-100" src="https://res.cloudinary.com/dt3qdkeoc/image/upload/v1729539908/hguku5vxvt2w3qwesua5.jpg" />
+                                </div>
+                            </div>
+                            <div class="p-4">
+                                <form>
+                                    <input type="text" required placeholder="HOUSE/FLAT/BLOCK NO" class="w-100 m-2"/>
+                                    <input type="text" required placeholder="AREA/ROAD/PIN" class="w-100 m-2"/>
+                                    <input type="text" required placeholder="RECEIVER'S NAME" class="w-25 m-2 "/>
+                                    <input type="number" required placeholder="PHONE NUMBER" class="w-25 m-2 "/>
+                                    <button type="submit" class="order-btn w-100 M-2" onclick="display('sectionorderconfirmation')">Order now</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="order-details-bg bg-white  pt-5 mb-5 pb-4 pl-5 pr-5" id="sectionordernoodles3">
+            <div class="continer w-75 m-auto">
+                <div class="row">
+                    <div class="col-12">
+                        <button class="home-btn   pb-1  mt-5 m-4" onclick="display('sectionorders')">Back</button>
+                        <div class=" food-order-big-box p-3">
+                            <div class="food-order-box p-3 bg-white m-3 shadow-lg d-flex flex-row">
+                                <div class=" ml-4">
+                                    <h1 class="food-box-head">Singapore Noodles</h1>
+                                    <p class="food-box-desc">Blue Fox(4.3)</p>
+                                    <p class="food-box-price">RS 190/-</p>
+                                </div>
+                                <div class="ml-auto mr-4">
+                                    <img class="food-img w-100" src="https://res.cloudinary.com/dt3qdkeoc/image/upload/v1729539917/lkersqmvwlyhabaikg5a.jpg" />
+                                </div>
+                            </div>
+                            <div class="p-4">
+                                <form>
+                                    <input type="text" required placeholder="HOUSE/FLAT/BLOCK NO" class="w-100 m-2"/>
+                                    <input type="text" required placeholder="AREA/ROAD/PIN" class="w-100 m-2"/>
+                                    <input type="text" required placeholder="RECEIVER'S NAME" class="w-25 m-2 "/>
+                                    <input type="number" required placeholder="PHONE NUMBER" class="w-25 m-2 "/>
+                                    <button type="submit" class="order-btn w-100 M-2" onclick="display('sectionorderconfirmation')">Order now</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="order-details-bg bg-white  pt-5 mb-5 pb-4 pl-5 pr-5" id="sectionordernoodles4">
+            <div class="continer w-75 m-auto">
+                <div class="row">
+                    <div class="col-12">
+                        <button class="home-btn   pb-1  mt-5 m-4" onclick="display('sectionorders')">Back</button>
+                        <div class=" food-order-big-box p-3">
+                            <div class="food-order-box p-3 bg-white m-3 shadow-lg d-flex flex-row">
+                                <div class=" ml-4">
+                                    <h1 class="food-box-head">Chicken Schezwan Noodles</h1>
+                                    <p class="food-box-desc">Andhra Spice(4.3)</p>
+                                    <p class="food-box-price">RS 180/-</p>
+                                </div>
+                                <div class="ml-auto mr-4">
+                                    <img class="food-img w-100" src="https://res.cloudinary.com/dt3qdkeoc/image/upload/v1729539939/qiouq46vmk8a2kb0jaek.jpg" />
+                                </div>
+                            </div>
+                            <div class="p-4">
+                                <form>
+                                    <input type="text" required placeholder="HOUSE/FLAT/BLOCK NO" class="w-100 m-2"/>
+                                    <input type="text" required placeholder="AREA/ROAD/PIN" class="w-100 m-2"/>
+                                    <input type="text" required placeholder="RECEIVER'S NAME" class="w-25 m-2 "/>
+                                    <input type="number" required placeholder="PHONE NUMBER" class="w-25 m-2 "/>
+                                    <button type="submit" class="order-btn w-100 M-2" onclick="display('sectionorderconfirmation')">Order now</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div class="order-details-bg bg-white  pt-5 mb-5 pb-4 pl-5 pr-5" id="sectionordersalads1">
+            <div class="continer w-75 m-auto">
+                <div class="row">
+                    <div class="col-12">
+                        <button class="home-btn   pb-1  mt-5 m-4" onclick="display('sectionorders')">Back</button>
+                        <div class=" food-order-big-box p-3">
+                            <div class="food-order-box p-3 bg-white m-3 shadow-lg d-flex flex-row">
+                                <div class=" ml-4">
+                                    <h1 class="food-box-head">Green Salad</h1>
+                                    <p class="food-box-desc">Southern Spice(4.1)</p>
+                                    <p class="food-box-price">RS 90/-</p>
+                                </div>
+                                <div class="ml-auto mr-4">
+                                    <img class="food-img w-100" src="https://res.cloudinary.com/dt3qdkeoc/image/upload/v1729539973/xr8etnjxwnw8dnc0zdg9.jpg" />
+                                </div>
+                            </div>
+                            <div class="p-4">
+                                <form>
+                                    <input type="text" required placeholder="HOUSE/FLAT/BLOCK NO" class="w-100 m-2"/>
+                                    <input type="text" required placeholder="AREA/ROAD/PIN" class="w-100 m-2"/>
+                                    <input type="text" required placeholder="RECEIVER'S NAME" class="w-25 m-2 "/>
+                                    <input type="number" required placeholder="PHONE NUMBER" class="w-25 m-2 "/>
+                                    <button type="submit" class="order-btn w-100 M-2" onclick="display('sectionorderconfirmation')">Order now</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="order-details-bg bg-white  pt-5 mb-5 pb-4 pl-5 pr-5" id="sectionordersalads2">
+            <div class="continer w-75 m-auto">
+                <div class="row">
+                    <div class="col-12">
+                        <button class="home-btn   pb-1  mt-5 m-4" onclick="display('sectionorders')">Back</button>
+                        <div class=" food-order-big-box p-3">
+                            <div class="food-order-box p-3 bg-white m-3 shadow-lg d-flex flex-row">
+                                <div class=" ml-4">
+                                    <h1 class="food-box-head">Caesar Salad</h1>
+                                        <p class="food-box-desc">Minerva Coffee Shop(4.3)</p>
+                                        <p class="food-box-price">RS 120/-</p>
+                                    </div>
+                                <div class="ml-auto mr-4">
+                                    <img class="food-img w-100" src="https://res.cloudinary.com/dt3qdkeoc/image/upload/v1729540152/hampipwja2dt1gc8tsqh.jpg" />
+                                </div>
+                            </div>
+                            <div class="p-4">
+                                <form>
+                                    <input type="text" required placeholder="HOUSE/FLAT/BLOCK NO" class="w-100 m-2"/>
+                                    <input type="text" required placeholder="AREA/ROAD/PIN" class="w-100 m-2"/>
+                                    <input type="text" required placeholder="RECEIVER'S NAME" class="w-25 m-2 "/>
+                                    <input type="number" required placeholder="PHONE NUMBER" class="w-25 m-2 "/>
+                                    <button type="submit" class="order-btn w-100 M-2" onclick="display('sectionorderconfirmation')">Order now</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="order-details-bg bg-white  pt-5 mb-5 pb-4 pl-5 pr-5" id="sectionordersalads3">
+            <div class="continer w-75 m-auto">
+                <div class="row">
+                    <div class="col-12">
+                        <button class="home-btn   pb-1  mt-5 m-4" onclick="display('sectionorders')">Back</button>
+                        <div class=" food-order-big-box p-3">
+                            <div class="food-order-box p-3 bg-white m-3 shadow-lg d-flex flex-row">
+                                <div class=" ml-4">
+                                    <h1 class="food-box-head">Greek Salad</h1>
+                                    <p class="food-box-desc">Blue Fox(4.4)</p>
+                                    <p class="food-box-price">RS 140/-</p>
+                                </div>
+                                <div class="ml-auto mr-4">
+                                    <img class="food-img w-100" src="https://res.cloudinary.com/dt3qdkeoc/image/upload/v1729540159/l2x3lxhb7qeoiaqdgpvz.jpg" />
+                                </div>
+                            </div>
+                            <div class="p-4">
+                                <form>
+                                    <input type="text" required placeholder="HOUSE/FLAT/BLOCK NO" class="w-100 m-2"/>
+                                    <input type="text" required placeholder="AREA/ROAD/PIN" class="w-100 m-2"/>
+                                    <input type="text" required placeholder="RECEIVER'S NAME" class="w-25 m-2 "/>
+                                    <input type="number" required placeholder="PHONE NUMBER" class="w-25 m-2 "/>
+                                    <button type="submit" class="order-btn w-100 M-2" onclick="display('sectionorderconfirmation')">Order now</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="order-details-bg bg-white  pt-5 mb-5 pb-4 pl-5 pr-5" id="sectionordersalads4">
+            <div class="continer w-75 m-auto">
+                <div class="row">
+                    <div class="col-12">
+                        <button class="home-btn   pb-1  mt-5 m-4" onclick="display('sectionorders')">Back</button>
+                        <div class=" food-order-big-box p-3">
+                            <div class="food-order-box p-3 bg-white m-3 shadow-lg d-flex flex-row">
+                                <div class=" ml-4">
+                                    <h1 class="food-box-head">Egg Salad</h1>
+                                    <p class="food-box-desc">Andhra Spice(4.2)</p>
+                                    <p class="food-box-price">RS 100/-</p>
+                                </div>
+                                <div class="ml-auto mr-4">
+                                    <img class="food-img w-100" src="https://res.cloudinary.com/dt3qdkeoc/image/upload/v1729540184/b1acingrln4lztxbzm4j.jpg" />
+                                </div>
+                            </div>
+                            <div class="p-4">
+                                <form>
+                                    <input type="text" required placeholder="HOUSE/FLAT/BLOCK NO" class="w-100 m-2"/>
+                                    <input type="text" required placeholder="AREA/ROAD/PIN" class="w-100 m-2"/>
+                                    <input type="text" required placeholder="RECEIVER'S NAME" class="w-25 m-2 "/>
+                                    <input type="number" required placeholder="PHONE NUMBER" class="w-25 m-2 "/>
+                                    <button type="submit" class="order-btn w-100 M-2" onclick="display('sectionorderconfirmation')">Order now</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div class="order-details-bg bg-white  pt-5 mb-5 pb-4 pl-5 pr-5" id="sectionorderdesserts1">
+            <div class="continer w-75 m-auto">
+                <div class="row">
+                    <div class="col-12">
+                        <button class="home-btn   pb-1  mt-5 m-4" onclick="display('sectionorders')">Back</button>
+                        <div class=" food-order-big-box p-3">
+                            <div class="food-order-box p-3 bg-white m-3 shadow-lg d-flex flex-row">
+                                <div class=" ml-4">
+                                    <h1 class="food-box-head">Gulab Jamun</h1>
+                                    <p class="food-box-desc">Southern Spice(4.5)</p>
+                                    <p class="food-box-price">RS 80/-</p>
+                                </div>
+                                <div class="ml-auto mr-4">
+                                    <img class="food-img w-100" src="https://res.cloudinary.com/dt3qdkeoc/image/upload/v1729540335/wbn9vmilsyb0eyrwthow.jpg" />
+                                </div>
+                            </div>
+                            <div class="p-4">
+                                <form>
+                                    <input type="text" required placeholder="HOUSE/FLAT/BLOCK NO" class="w-100 m-2"/>
+                                    <input type="text" required placeholder="AREA/ROAD/PIN" class="w-100 m-2"/>
+                                    <input type="text" required placeholder="RECEIVER'S NAME" class="w-25 m-2 "/>
+                                    <input type="number" required placeholder="PHONE NUMBER" class="w-25 m-2 "/>
+                                    <button type="submit" class="order-btn w-100 M-2" onclick="display('sectionorderconfirmation')">Order now</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="order-details-bg bg-white  pt-5 mb-5 pb-4 pl-5 pr-5" id="sectionorderdesserts2">
+            <div class="continer w-75 m-auto">
+                <div class="row">
+                    <div class="col-12">
+                        <button class="home-btn   pb-1  mt-5 m-4" onclick="display('sectionorders')">Back</button>
+                        <div class=" food-order-big-box p-3">
+                            <div class="food-order-box p-3 bg-white m-3 shadow-lg d-flex flex-row">
+                                <div class=" ml-4">
+                                    <h1 class="food-box-head">Gajar Ka Halwa</h1>
+                                    <p class="food-box-desc">Minerva Coffee Shop(4.4)</p>
+                                    <p class="food-box-price">RS 90/-</p>
+                                </div>
+                                <div class="ml-auto mr-4">
+                                    <img class="food-img w-100" src="https://res.cloudinary.com/dt3qdkeoc/image/upload/v1729540350/deaqxbxq9w0kumfhjgw4.jpg" />
+                                </div>
+                            </div>
+                            <div class="p-4">
+                                <form>
+                                    <input type="text" required placeholder="HOUSE/FLAT/BLOCK NO" class="w-100 m-2"/>
+                                    <input type="text" required placeholder="AREA/ROAD/PIN" class="w-100 m-2"/>
+                                    <input type="text" required placeholder="RECEIVER'S NAME" class="w-25 m-2 "/>
+                                    <input type="number" required placeholder="PHONE NUMBER" class="w-25 m-2 "/>
+                                    <button type="submit" class="order-btn w-100 M-2" onclick="display('sectionorderconfirmation')">Order now</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="order-details-bg bg-white  pt-5 mb-5 pb-4 pl-5 pr-5" id="sectionorderdesserts3">
+            <div class="continer w-75 m-auto">
+                <div class="row">
+                    <div class="col-12">
+                        <button class="home-btn   pb-1  mt-5 m-4" onclick="display('sectionorders')">Back</button>
+                        <div class=" food-order-big-box p-3">
+                            <div class="food-order-box p-3 bg-white m-3 shadow-lg d-flex flex-row">
+                                <div class=" ml-4">
+                                    <h1 class="food-box-head">Brownie with Ice Cream</h1>
+                                    <p class="food-box-desc">Blue Fox(4.7)</p>
+                                    <p class="food-box-price">RS 150/-</p>
+                                </div>
+                                <div class="ml-auto mr-4">
+                                    <img class="food-img w-100" src="https://res.cloudinary.com/dt3qdkeoc/image/upload/v1729540404/images_fe3oir.jpg" />
+                                </div>
+                            </div>
+                            <div class="p-4">
+                                <form>
+                                    <input type="text" required placeholder="HOUSE/FLAT/BLOCK NO" class="w-100 m-2"/>
+                                    <input type="text" required placeholder="AREA/ROAD/PIN" class="w-100 m-2"/>
+                                    <input type="text" required placeholder="RECEIVER'S NAME" class="w-25 m-2 "/>
+                                    <input type="number" required placeholder="PHONE NUMBER" class="w-25 m-2 "/>
+                                    <button type="submit" class="order-btn w-100 M-2" onclick="display('sectionorderconfirmation')">Order now</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="order-details-bg bg-white  pt-5 mb-5 pb-4 pl-5 pr-5" id="sectionorderdesserts4">
+            <div class="continer w-75 m-auto">
+                <div class="row">
+                    <div class="col-12">
+                        <button class="home-btn   pb-1  mt-5 m-4" onclick="display('sectionorders')">Back</button>
+                        <div class=" food-order-big-box p-3">
+                            <div class="food-order-box p-3 bg-white m-3 shadow-lg d-flex flex-row">
+                                <div class=" ml-4">
+                                    <h1 class="food-box-head">Rasmalai</h1>
+                                    <p class="food-box-desc">Andhra Spice(4.4)</p>
+                                    <p class="food-box-price">RS 90/-</p>
+                                </div>
+                                <div class="ml-auto mr-4">
+                                    <img class="food-img w-100" src="https://res.cloudinary.com/dt3qdkeoc/image/upload/v1729540410/c8i1z75xhosyzij69pma.jpg" />
+                                </div>
+                            </div>
+                            <div class="p-4">
+                                <form>
+                                    <input type="text" required placeholder="HOUSE/FLAT/BLOCK NO" class="w-100 m-2"/>
+                                    <input type="text" required placeholder="AREA/ROAD/PIN" class="w-100 m-2"/>
+                                    <input type="text" required placeholder="RECEIVER'S NAME" class="w-25 m-2 "/>
+                                    <input type="number" required placeholder="PHONE NUMBER" class="w-25 m-2 "/>
+                                    <button type="submit" class="order-btn w-100 M-2" onclick="display('sectionorderconfirmation')">Order now</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="sectionorderconfirmation" class="orderconfirmation-bg w-75 m-auto mb-5 pt-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <button class="home-btn2 bg-info text-dark mt-5 " onclick="display('sectionorders')">Home</button>
+                    <div class=" order-confirmation-box   text-center ">
+                        <div class=" ">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" fill="darkgreen" class="bi mb-3 mt-3 bi-check-circle-fill" viewBox="0 0 16 16">
+                                <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0m-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
+                              </svg>
+                            <h1 class="order-confirmation-head">Congratulation</h1>
+                            <p class="order-confirmation-desc">ordered successfully!</p>
+                            <p class="order-confirmation-desc">Wait for 55 mins to deliver the food</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="https://d2clawv67efefq.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+</body>
+
+</html>

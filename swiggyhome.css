@@ -1,0 +1,474 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.food-order-big-box{
+    border-radius:22px;
+    border-width:0px;
+    background-image:radial-gradient(white,orange)
+}
+.food-order-box {
+    border-radius: 20px;
+    border-width: 1px;
+    border-style:solid;
+    border-color:gray;
+    box-shadow:0px 4px 10px #bf6102;
+}
+.order-confirmation-box {
+    height: 100vh;
+    margin-top: 50px;
+    padding-top: 50px;
+}
+
+.confirm-icon{
+    background-color:green;
+}
+.order-confirmation-desc {
+    color:rgb(20, 168, 1);
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.order-confirmation-head {
+    color:rgb(20, 168, 1);
+    font-family: "Roboto";
+    font-size: 56px;
+    font-weight: bolder;
+
+}
+
+.home-btn2 {
+    border-radius: 14px;
+    border-width: 0px;
+    font-weight: bold;
+    font-family: "Roboto";
+    font-size: 24px;
+    height: 60px;
+    width: 150px;
+    padding-bottom: 8px;
+
+}
+.home-btn2:hover{
+    transform: scale(1.05);
+}
+
+.orderconfirmation-bg {
+    background-image:radial-gradient(white,gold);
+    background-size: cover;
+    height: 100vh;
+
+}
+
+.food-img {
+   
+    width: 25%;
+    border-radius: 10px;
+}
+
+.food-box-price {
+    font-family: "Roboto";
+    font-size: 26px;
+    color: black;
+    font-weight: bolder;
+}
+
+.food-box-desc {
+    font-family: "Roboto";
+    font-size: 20px;
+    color: black;
+    font-weight: 700;
+}
+
+.food-box-head {
+    font-family: "Bree serif";
+    font-size: 32px;
+    font-weight: bold;
+    color: red;
+}
+
+.food-box {
+    border-radius: 20px;
+    border-width: 1px;
+    border-style:solid;
+    border-color:gray;
+    box-shadow:0px 4px 10px #bf6102;
+}
+
+.food-box:hover{
+    transform: scale(1.05);
+    background: radial-gradient( rgb(252, 230, 162), rgb(252, 197, 32));
+}
+
+.order-btn {
+    background-color:rgb(255, 102, 0);
+    border-radius: 14px;
+    border-width: 0px;
+    color: white;
+    font-weight: bold;
+    font-family: "Roboto";
+    font-size: 24px;
+    height: 60px;
+    width: 150px;
+    padding-bottom: 8px;
+
+}
+.food-type-head {
+    font-family: "Bree serif";
+    font-size: 34px;
+    font-weight: bolder;
+    color: #bf6102;
+}
+
+.home-btn {
+    background-color: black;
+    border-radius: 14px;
+    border-width: 0px;
+    color: white;
+    font-weight: bold;
+    font-family: "Roboto";
+    font-size: 24px;
+    height: 60px;
+    width: 150px;
+    padding-bottom: 8px;
+
+}
+.home-btn:hover{
+    transform: scale(1.05);
+}
+
+.search-container {
+    padding-top: 100px;
+    padding-bottom: 15px;
+    padding-right:15px;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+}
+
+
+.search-bar {
+    border: none;
+    padding: 10px;
+    border-radius: 25px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    width: 95%;
+}
+
+.search-btn {
+    background-color: orange;
+    color: white;
+    border: none;
+    font-weight:bolder;
+    padding: 10px 20px;
+    border-radius: 25px;
+    cursor: pointer;
+    width: 100%;
+}
+
+
+.search-btn:hover{
+    transform: scale(1.05);
+    background-color:rgb(255, 119, 0);
+
+}
+.address-location {
+    color: #959ead;
+    font-family: "roboto";
+    font-size: 18px;
+
+}
+
+.address-email {
+    color: #959ead;
+    font-family: "roboto";
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.address-bg {
+    background-color: #0d2436;
+}
+
+.followus-icon {
+    font-size: 35px;
+    color: darkorange;
+}
+
+.followus-icon-bg {
+    background-color: #faf7e8;
+    height: 70px;
+    width: 70px;
+    padding-top: 18px;
+    border-radius: 40px;
+}
+.followus-icon-bg:hover{
+    transform: scale(1.08);
+}
+
+.followus-head {
+    color: white;
+    font-family: "roboto";
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.wcu-box-offer {
+    font-style: italic;
+    font-weight: bold;
+    color: black;
+}
+
+.wcu-box-para {
+    color: gray;
+    font-family: "roboto";
+    font-size: 20px;
+}
+
+.wcu-box-head {
+    color: black;
+    font-family: "roboto";
+    font-size: 25px;
+}
+
+.wcu-box-pic {
+    height: 90px;
+    width: 87px;
+}
+
+.wcu-box {
+    background-color: white;
+    border-width: 1px;
+    border-radius: 10px;
+    border-color: #e5eaf4;
+    border-style: solid;
+}
+
+.wcu-container-para {
+    font-family: "roboto";
+    font-size: 18px;
+    color: #5a7184;
+}
+
+.wcu-container-head {
+    color: #183b56;
+    font-family: "roboto";
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.wcu-container {
+    background-color: #f9fbfe;
+}
+
+.dap-sm-pic {
+    height: 50px;
+    width: 50px;
+}
+
+
+
+.dap-para {
+    color: #5a7184;
+    font-family: "roboto";
+    font-size: 16px;
+}
+
+.dap-head {
+    color: #183b56;
+    font-family: "roboto";
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.dap-pic {
+    height: 300px;
+    width: 300px;
+}
+
+.dap-bg {
+    background-image: radial-gradient(#fce6c7, #faaf46);
+}
+
+.fho-para {
+    color: #5a7184;
+    font-family: "roboto";
+    font-size: 16px;
+}
+
+.fho-head {
+    color: #183b56;
+    font-family: "roboto";
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.fho-pic {
+    height: 250px;
+    width: 250px;
+}
+
+.fho-bg {
+    background-color: #f9fbfe;
+}
+
+.tq-gift-voucher {
+    color: #d00000;
+    font-weight: bold;
+    font-family: "roboto";
+    font-size: 25px;
+}
+
+.custom-btn {
+    background-image: linear-gradient(#d0b200, #a58d00);
+    color: white;
+    font-family: "roboto";
+    border-width: 0px;
+    border-radius: 5px;
+    font-size: 15px;
+    width: 100px;
+    height: 35px;
+}
+.custom-btn:hover{
+    transform: scale(1.2);
+}
+
+.tq-pic {
+    height: 300px;
+    width: 250px;
+}
+
+.tq-para {
+    color: #5a7184;
+    font-family: "roboto";
+    font-size: 16px;
+}
+
+.tq-head {
+    color: #183b56;
+    font-family: "roboto";
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.tq-bg {
+
+    background-image: radial-gradient(#fce6c7, #faaf46);
+}
+
+
+.em-box-para {
+    color: darkblue;
+    font-family: "roboto";
+    font-size: 14px;
+    font-weight:bolder;
+}
+
+.em-box-head {
+    color: #323f4b;
+    font-family: "roboto";
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.em-box-img {
+    border-radius: 14px;
+}
+
+.em-box {
+    border-radius: 16px;
+    border-width:0px;
+    border-style:solid;
+    border-color:gray;
+   
+}
+.em-box:hover{
+    transform: scale(1.08);
+    background: radial-gradient( rgb(252, 230, 162), rgb(252, 197, 32));
+
+}
+
+.em-container-head {
+    color: #183b56;
+    font-family: "roboto";
+    font-size: 34px;
+
+    font-weight: bolder;
+}
+.explore-menu-container {
+    background-color: white;
+}
+.signin-send-otp1{
+    color:red;
+    font-family:"Roboto";
+    font-weight:bolder;
+    border-color:red;
+    border-width:2px;
+    border-style:solid;
+    border-radius:8px;
+    background-color: transparent;
+    
+    
+}
+.signin-send-otp1:hover{
+    transform: scale(1.08);
+}
+.signin-send-otp2{
+    color:black;
+    font-family:"Roboto";
+    font-weight:bolder;
+    background-color:darkgreen;
+    border-width:0px;
+    border-style:solid;
+    border-radius:8px;
+    height:35px;
+    width:80px; 
+}
+.signin-send-otp2:hover{
+    transform: scale(1.08);
+}
+
+.signin-box{
+    background-image:radial-gradient(rgb(255, 242, 121),rgb(255, 153, 0)) ;
+    border-width:0px;
+    border-radius:15px;
+    
+}
+.signin-btn{
+    
+    background-color:orange;
+    border-width:0px;
+    height:42px;
+    width:120px;
+    border-style:solid;
+    border-radius:20px;
+    color:white;
+    font-weight:bolder;
+
+}
+.signin-btn:hover{
+    transform: scale(1.08);
+    background-color:rgb(255, 119, 0);
+}
+
+.nav-menu {
+    color: black;
+    font-family: "roboto";
+    font-weight:600;
+    margin-left:5px;
+}
+.nav-menu:hover{
+    transform: scale(1.1);
+   
+    
+}
+.nav-logo:hover{
+    transform: scale(1.1);
+}
+.nav-logo {
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+}
