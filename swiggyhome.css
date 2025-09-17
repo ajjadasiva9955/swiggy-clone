@@ -196,6 +196,8 @@
     font-size: 35px;
     color: darkorange;
     border-radius:100px;
+    height:50px;
+    width:50px;
 }
 .followus-icon:hover{
     transform: scale(1.08);
@@ -465,4 +467,5 @@
     width: 50px;
     border-radius: 50px;
 }
+
 
