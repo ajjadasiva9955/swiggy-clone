@@ -195,16 +195,11 @@
 .followus-icon {
     font-size: 35px;
     color: darkorange;
+    border-radius:100px;
+    height:50px;
+    width:50px;
 }
-
-.followus-icon-bg {
-    background-color: #faf7e8;
-    height: 70px;
-    width: 70px;
-    padding-top: 18px;
-    border-radius: 40px;
-}
-.followus-icon-bg:hover{
+.followus-icon:hover{
     transform: scale(1.08);
 }
 
